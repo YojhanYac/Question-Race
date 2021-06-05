@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+.img-header{
+    width: 100%;
+    /*filter: opacity(.5);*/
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin 0;
+}
+.text-main {
+    flex: 1;
+    text-align: center;
+    background-image: url('../images/fondo2.jpg');
+   /* background-image: linear-gradient(to top, #fa71cd 0%,   #c471f5 100%);*/
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bg-dark {
+    background-color: rgba(106, 88, 139, 1)!important;
+}
+
+.container_cargar_preg{
+    background-image: url(../images/pregunta1.png);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.main.py-5{
+  /*background-image: url(../images/pregunta1.png);*/
+  /*background-color: #673ab766;*/
+  padding-top: 0rem!important;
+  padding-bottom: 0rem!important;
+}
+
+footer{
+    background-color: rgba(106, 88, 139, 1)!important;
+}
+
+.call-to-action{
+    background-color: royalblue;
+    text-align: center;
+    line-height: 58px;
+}
+
+.callIndex{
+    padding-bottom: 3%;
+}
+
+.tex-cta{
+    padding: 3rem 0rem 2rem;
+    color: sandybrown;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+}
+
+.float-left{
+    width: 9%;
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+.footer-brand{
+    padding-bottom: 1rem;
+}
+
+.badge{
+    margin-top: 5px;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+.main1{
+  background-color: violet;
+
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+/*.footer-brand {
+    padding-bottom: 1rem;
+    height: 57px!important;
+}*/
+
+.tit_preg{
+    margin-bottom: 1rem;
+}
+
+.tit_res{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form1{
+    background: #6a578acf;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.btn-warning {
+    color: #177bff;
+}
+
+.btnWindex{
+    width: 20%;
+}
+.btn{
+    white-space: normal;
+}
+
+.titulo{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.a_cust{
+    margin:2% 5%;
+}
+
+@media (max-width: 950px) {
+    .btnWindex{
+        width: auto;
+    }
+    .a_cust{
+        margin:10% 2%;
+    }
+  }
+
+  
+  @media (min-height: 950px) {
+    .main-content {
+      margin: 10% auto;
+    }
+  }

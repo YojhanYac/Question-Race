@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+body{
+    background: rgba(193,70,161,1);
+    background: -moz-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -o-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: linear-gradient(135deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+}
+
+footer{
+    background-color: #4c3673d4!important;
+}
+.logo{
+    width: 72px; 
+    height: 72px;
+}
+
+.text-center{
+	margin:11rem auto;
+	display:block;
+}
+
+@media (max-width: 950px) {
+    .text-center {
+      width:100vw;
+  }
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+} 
+
+.float-left{
+    width: 9%;
+}
+
+.badge{
+    margin-top: 5px;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+
+.bg-dark {
+    background-color: #4c3673d4!important;
+}

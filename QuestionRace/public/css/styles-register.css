@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+/*body{
+    background: rgba(193,70,161,1);
+    background: -moz-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -o-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+    background: linear-gradient(135deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+}*/
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin 0;
+  }
+
+.text-main {
+    flex: 1;
+    background-color: rgba(106, 88, 139, 0.6);
+      background-image:
+      url(../images/back3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    /*background: hotpink ;*/
+  }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0px 0px;
+}
+
+.text-center{
+    width: 50%;
+    max-width: 650px;
+}
+.size-box-login {
+    width: 100%!important;
+}
+.box-login-web {
+    margin: 1% 0px;
+}
+.box-login-container {
+}
+.box-login-div {
+
+}
+.box-register-logo{
+    justify-content: space-evenly;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+.bg-dark {
+      background-color: rgba(106, 88, 139, 1)!important;
+}
+
+.logo{
+    margin-top: 50px;
+    width: 72px; 
+    height: 72px;
+  }
+
+.card {
+    background: bottom;
+    margin: 0 auto 0 auto!important;
+    width: 40vw;
+    border: 0;
+}
+
+footer{
+    background-color: #4c3673d4!important;
+}
+
+.logo{
+    width: 72px;
+    height: 72px;
+    margin: 5% auto 0px auto;
+}
+
+.text-center{
+    /*width: 40vw;*/
+}
+
+.text-muted{
+    margin-bottom: 2rem !important;
+    color: #000;
+}
+
+.form-signin{
+    margin-top: 3rem;
+}
+
+input{
+    margin-bottom: 0.35rem;
+    margin-top: 0.35rem;
+}
+
+
+@media (max-width: 950px) {
+    .text-center {
+      width: 100vw;
+  }
+
+}
+
+.chek{
+    margin-top: 1rem;
+}
+
+.container {
+    margin: 0 auto 0 auto!important;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+    float: right;
+}
+
+.float-left{
+    width: 9%;
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+
+.footer-brand{
+    padding-bottom: 1rem;
+}
+
+.badge{
+    margin-top: 5px;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+
+.recupero-pass {
+    
+}
+small{
+    color: red;
+}
+
+#imagenAvatar{
+    margin: 0rem;
+    padding: 0rem;
+    border-top-width: 10px;
+}
+
+#cargarAvatar{
+    text-align: center;
+}
+
+.custom-file-label::after {
+  content: "Avatar"!important;
+}
+
+#botonIngresar{
+    margin-top: 1rem;
+}
+
+.avatar-t{
+margin-top: 1rem;
+}
+
+.avatar-file{
+    text-align: left;
+}
+.nav-item active {
+  list-style: none;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 0!important; 
+}
+
+.card-body {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.col-form-label {
+    margin-right: -35px;
+}
+
+.btn-b:not(:disabled):not(.disabled) {
+    width: 100%;
+}
+
+.inic{
+    margin-bottom: 1rem!important; 
+}
+
+.text-white{
+background-color: rgba(106, 88, 139, 1)!important;}
+
+.FCbiss{
+    width: 105%;
+    background-color: rgba(255, 255, 255, 0)!important;
+    border: none;
+}
+
+.lavelCustom{
+    margin-right: -50px;
+}
+
+.formCustom{
+    align-items: center!important;
+}
+
+/*.border-line-red {
+    border: 4px solid red;
+  }
+  .border-line-blue {
+    border: 4px solid blue;
+  }
+  .border-line-yellow {
+    border: 4px solid yellow;
+  }
+  .border-line-violet {
+    border: 4px solid violet;
+  }
+  .border-line-green {
+    border: 4px solid green;
+  }
+  .border-line-orange {
+    border: 4px solid orange;
+  }*/
+
+.font-game-shadow {
+    text-shadow: black 0.1em 0.1em 0.1em;
+    color: white!important;
+}
+.font-game-shadow-hover:hover {
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+    text-decoration: none;
+}
+.font-game {
+    font-family: 'Luckiest Guy';
+    color: white !important;
+    margin: 1.5% 0px 1.5% 0px;
+    text-shadow: black 0.1em 0.15em 0.2em;
+}
+.font-game-black {
+    font-family: 'Luckiest Guy';
+    color: black !important;
+    margin: 1.5% 0px 1.5% 0px;
+    text-shadow: white 0.1em 0.15em 0.2em;
+}
+.font-game-simple {
+    font-family: 'Luckiest Guy';
+    color: white !important;
+    margin: 1.5% 0px 1.5% 0px;
+}
+.font-game-simple-black {
+    font-family: 'Luckiest Guy';
+    color: black !important;
+    margin: 1.5% 0px 1.5% 0px;
+}

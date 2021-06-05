@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+.datosPerfil {
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 7rem;
+  /* padding: 20px;
+  padding-bottom: 40px; */
+}
+
+/*.datosPerfil li {
+  margin-top: 24px;
+  padding: 8px;
+  border-top: 1px solid black;
+<<<<<<< HEAD
+  border-bottom: 1px solid black; 
+  }*/
+
+  =======
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+  font-family: 'Luckiest Guy';
+  font-size: 2rem;
+  color: #ff9800 !important;
+} 
+<<<<<<< HEAD
+
+*{
+  margin: 0;
+}
+
+.bg-dark {
+  background-color: #4c3673d4!important;
+}
+
+/* para identificar container */
+.bordecolor{
+  border:2px solid red !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+} 
+
+.left{
+  background-color: aqua;
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, -0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+  url(../img/pregunta.png);
+
+  text-align: center;
+  padding-top: 5%;
+}
+
+p{
+  color: white;
+}
+
+img{
+  width: 50%;
+  border-radius: 50%;
+  margin: 10% 25%;
+}
+
+.name{
+  font-size: 2rem;
+  background-color: #d9ececcf;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.rigth{
+  background-color: #673ab766;
+  padding: 6px 30px;
+}
+
+.btn{
+  margin-top: 17px;
+  margin-bottom: 16px;
+  box-shadow: 8px 9px 12px 0px rgba(0, 0, 0, 0.29);
+}
+
+.btn-perfil{
+  box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+
+.list-group{
+  box-shadow: 8px 9px 12px 0px rgba(0, 0, 0, 0.29);
+  margin-bottom: 20px;
+}
+
+.pagination{
+  margin-bottom: 8px;
+}
+
+.img-edit{
+  width: 1.2rem;
+  margin: 0;
+  border-radius: 0;
+  float: right;
+}
+
+.navbar-brand{
+  font-family: 'Luckiest Guy';
+  font-size: 2rem;
+  color: #ff9800 !important;
+} 
+=======
+>>>>>>> 770e08b6b1bb59f60bc2d5810d19e066e9e32ccb
+>>>>>>> 499af7c89d5409d305c3e167ed9557fdd197bc5b

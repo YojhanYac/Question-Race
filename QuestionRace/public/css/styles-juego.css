@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin 0;
+}
+.text-main {
+    flex: 1;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/fondo1.jpg');
+   /* background-image: linear-gradient(to top, #fa71cd 0%,   #c471f5 100%);*/
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    margin: 0.75% 1.5%;
+}
+
+footer{
+    background-color: rgba(106, 88, 139, 1)!important;
+}
+.footer-brand{
+    padding-bottom: 1rem;
+}
+.float-left{
+    width: 9%;
+}
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+
+
+
+
+
+.bg-dark {
+    background-color: rgba(106, 88, 139, 1)!important;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+
+/* custom left */
+.left-image{
+    background-color: rgba(106, 88, 139, 0.6);
+    background-image:
+    url(../images/pregunta.png);
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left{
+    background-color: rgba(106, 88, 139, 0.6);
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+}
+
+.text-left{
+    margin-left: 2%;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    margin-bottom: 25px;
+}
+
+.cuestion{
+    font-size: 1.5rem;
+    background-color: #9C27B0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn{
+    /*margin-top: 17px;*/
+    padding: 5px 3rem;
+    margin-bottom: 16px;
+    box-shadow: 8px 9px 12px 0px rgba(0, 0, 0, 0.29);
+    font-size: 1.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+} 
+
+form{
+    background-color: #ff9800eb;
+    font-size: 2rem;
+    padding: 25px 15px 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* custom rigth */
+
+.rigth{
+    padding: 0px 0px 0px 1%;
+    display: flex;
+    align-items: center;
+}
+
+.juego {
+    width: 100%!important;
+
+}
+
+.btn-game {
+    border-radius: 20px;
+}
+
+.contenedor-juego {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    
+}
+.img-back{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img-ficha{
+    width: 11%;
+    position: relative;
+    margin-left: -79%;
+    margin-top: 28%;
+}
+
+
+/* custom radio */
+.radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* create custom radio */
+.radio .check {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* on mouse-over, add border color */
+.radio:hover input ~ .check {
+}
+
+/* add background color when the radio is checked */
+.radio input:checked ~ .check {
+    background-color: #2489C5;
+}
+
+/* create the radio and hide when not checked */
+.radio .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* show the radio when checked */
+.radio input:checked ~ .check:after {
+    display: block;
+}
+
+/* radio style */
+.radio .check:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.main.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 0px!important;
+}
+
+.prueba{
+    color: #9C27B0;
+}
+
+#btnjuego {
+    margin-top: 25px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+/* style ganaste*/
+.won{
+    font-family: 'Luckiest Guy';
+    font-size: 3rem;
+    color: #ff9800;
+    margin-bottom: 2rem;
+}
+
+.fel{
+    font-family: 'Luckiest Guy';
+    font-size: 4rem;
+    color: #6a588b;
+    margin-bottom: 0;
+}
+
+.sec_card{
+    margin-top: 2rem!important;
+}
+/* style ganaste fin*/
+
+.img_l{
+    position: absolute;
+    width: 16%;
+    margin-top: 23vh;
+    margin-left: 8%;
+    animation: img_l 5s infinite;
+}
+
+@keyframes img_l{
+    
+            0%{
+              transition: ease;
+              left: 3vw;
+              top: 1vh;
+            }
+          
+            50%{
+              transition: ease;
+              left: 2vw;
+              top: 5vh; 
+              right: 3vw;
+            } 
+            
+            100%{
+              transition: ease;
+              left: 3vw;
+              top: 1vh;
+            }
+}
+
+.img_r{
+    position: absolute;
+    width: 16%;
+    margin-top: 23vh;
+    margin-left: 73%;
+    animation: img_r 5s infinite;
+}
+
+@keyframes img_r{
+    
+            0%{
+               transition: ease;
+              left: -3vw;
+              top: 1vh;
+            }
+          
+            50%{
+              transition: ease;
+              left: 2vw;
+              top: 5vh; 
+              right: 3vw;
+            } 
+            
+            100%{
+              transition: ease;
+              left: -3vw;
+              top: 1vh;
+            }
+}
+
+.custex{
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil{
+    margin-bottom: 12px;
+    border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.card_perfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(106, 88, 139, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.labelCustom{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+    margin: 1.5% 0px 1.5% 0px;
+    text-shadow: black 0.1em 0.15em 0.35em
+}
+
+.name {
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+    text-shadow: black 0.1em 0.15em 0.35em
+}
+
+.labelCustom-button {
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5% 0px 1.5% 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btn_act_datos{
+    flex: 1;
+justify-content: center;
+margin: 2% auto;
+
+}
+
+.input-for {
+    margin: 4px 0px 4px 0px;
+}
+
+.perfil-form {
+    padding: 0px 0px 0px 1%;
+}
+.form-control {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(124, 109, 109);
+    color: black;
+}
+
+
+#astro {
+    background-image: url(../images/astro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 54%;
+    height: 360px;
+    position: absolute !important;
+    left: 81%;
+    width: 15%;
+    animation: rot 10s infinite linear;
+    -webkit-animation: rot 10s infinite linear;
+}
+
+
+@keyframes rot{
+0% {
+    transform: rotate(0deg) translate(-30px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(-30px) rotate(-360deg);
+}
+}
+
+@media only screen and (max-width: 900px) {
+    .perfil-form {
+        padding: 0px 0px 0px 2%;
+    }
+  .perfil{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    }
+}
+
+.labelCustom-button {
+    height: auto!important;
+}
+
+@media only screen and (max-width: 767px) {
+    .perfil-form {
+        padding: 2% 0px 0px 0px;
+    }
+    .left {
+        margin: 5% auto 2.5% auto;
+    }
+    .rigth {
+        margin: 2.5% auto 5% auto;
+    }
+    .main-content {
+        margin: 0.75% auto;
+    }
+}
+
+.font-game {
+    font-family: 'Luckiest Guy';
+    color: white !important;
+    margin: 1.5% 0px 1.5% 0px;
+    text-shadow: black 0.1em 0.15em 0.2em;
+}
+.font-game-simple {
+    font-family: 'Luckiest Guy';
+    color: white !important;
+    margin: 1.5% 0px 1.5% 0px;
+}
+.font-game-simple-black {
+    font-family: 'Luckiest Guy';
+    color: black !important;
+    margin: 1.5% 0px 1.5% 0px;
+}
+
+
+/*.border-line-red {
+    border: 4px solid red;
+}
+.border-line-blue {
+    border: 4px solid blue;
+}
+.border-line-yellow {
+    border: 4px solid yellow;
+}
+.border-line-violet {
+    border: 4px solid violet;
+}
+.border-line-green {
+    border: 4px solid green;
+}
+.border-line-orange {
+    border: 4px solid orange;
+}*/
+
+@media (min-width: 1600px) {
+    .btnWindex{
+        width: auto;
+    }
+    .a_cust{
+        margin:10% 2%;
+    }
+  }

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+.bg-dark {
+    background-color: #4c3673d4!important;
+}
+
+footer{
+    background-color: #4c3673d4!important;
+}
+
+body{
+    background-color: #673ab71c;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, -0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+    url(../img/pregunta.png);
+}
+
+main{
+    width: 80%;
+    margin: 24px auto;
+    background-color: #5f9ea080;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h1{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.29);
+}
+
+h4{
+    color: white;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.29);
+}
+
+a{
+    color: #0923dc;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+} 
+
+.float-left{
+    width: 9%;
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+
+.footer-brand{
+    padding-bottom: 1rem;
+}
+
+.badge{
+    margin-top: 5px;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+
+.email{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
