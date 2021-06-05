@@ -26,7 +26,7 @@
                 @else
                 <tr class="border-line-red">
                 @endif
-                    <th scope="row" style="text-align:center;">{{++$a}}</th>
+                    <th scope="row" style="text-align:center;">{{$ranking[$key]->id}}</th><span hidden>{{++$a}}</span>
                     <th>{{$ranking[$key]->usuario}}</td>
                     <th style="text-align:center;">{{$ranking[$key]->puntaje}}</td>
                 </tr>

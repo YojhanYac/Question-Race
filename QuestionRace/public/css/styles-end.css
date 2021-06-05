@@ -11,9 +11,9 @@ html {
 }
 .text-main {
     background-image: url('../images/fondoFinal.jpg');	
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     flex: 1;
     top: 0px!important  ;
     margin: 0px 0px 0px 0px;
@@ -25,29 +25,7 @@ html {
 
 .main-content {
     width: 100%;
-    margin: 1.5% 25%;
-}
-
-@media(max-width: 790px){
-    .main-content {
-        margin: 1.5% auto;
-    }
-    .fel {
-        font-size: 2rem!important;
-    }
-    .text-main {
-        padding: 25% 0px 25% 0px;
-    }
-    .img_r{
-        width: 20%!important;
-        margin-top: 35vh!important;
-        margin-left: 80%!important;
-    }
-    .img_l{
-        width: 20%!important;
-        margin-top: 35vh!important;
-        margin-left: 5%!important;
-    }
+    margin: 1.5% 20%;
 }
 .sec_card{
     border-radius: 40px;
@@ -60,7 +38,7 @@ html {
 }
 
 .button-retry {
-    /* width: auto!important; */
+    width: auto!important;
     padding: 5px 80px!important;
 }
 
@@ -277,7 +255,6 @@ form{
     font-size: 4rem;
     color: #6a588b;
     margin-bottom: 0;
-    text-align: center;
 }
 
 /* style ganaste fin*/

@@ -1,6 +1,6 @@
 @extends('layouts.app')
-<script src="js/main.js"></script>
 @section('styles','css/styles-juego.css')
+
 @section('content')
 
 <div class="row border-line-red juego">
@@ -10,11 +10,11 @@
         <h2 class="font-game">PUNTAJE: {{ session()->get('puntaje', 0) }} </h2>
         <form id="juego" action="/juego" method="POST" class="border-line-yellow">
             <h2 class="call-to-action font-game">Pregunta #{{$pregunta->id}}</h2>
-            @csrf   
+            @csrf
             <p class="font-game-simple-black">{{$pregunta->pregunta}}</p>
-            <input type="hidden" name="pregunta_id" class="" id="rtaCorrecta1" value="{{$pregunta->id}}">
+            <input type="hidden" name="pregunta_id" class="" id="rtaCorrecta" value="{{$pregunta->id}}">
             @foreach($respuestas as $key => $respuesta)
-            <!-- <h3> asdasd {{$pregunta->id}}</h3> -->
+
             <div class=" btn-group-toggle btn-block font-game-simple" data-toggle="buttons">
                 <label class="btn btn-secondary active" id="resp{{$key}}">
                     <input type="radio" name="rta" value="{{$respuestas[$random[$key]]->respuesta}}" checked>{{$respuestas[$random[$key]]->respuesta}}
@@ -38,26 +38,22 @@
 
     <!-- ///////////////// JS PARA COORDENADAS ///////////////-->
     <script>
+        document.querySelector("#rtaCorrecta").addEventListener("onload", myFunction)
 
-        $(document).ready(function(){
-
-            var nroPregunta = document.querySelector('#rtaCorrecta1').value;
-
-            document.querySelector('#rtaCorrecta1').addEventListener('load', myFunction1());
-
-            function myFunction1() {
-                if (nroPregunta == 2) {
-                    //Si es correcta aplicar nuevas coordenadas y continuar a la proxima pregunta
-                    document.querySelector('#medal').style = "margin-left: -71%;margin-top: 28%;"
-                }if (nroPregunta == 3) {
-                    document.querySelector('#medal').style = "margin-left: -63.7%;margin-top: 29%;"
-                }if (nroPregunta == 4) {
-                    document.querySelector('#medal').style = "margin-left: -40.3%;margin-top: -26%;"
-                }if (nroPregunta == 5) {
-                    document.querySelector('#medal').style = "margin-left: -31.5%;margin-top: -29%;"
-                }
+        var nroPregunta = document.querySelector("#rtaCorrecta").value
+        
+        function myFunction() {
+            if (nroPregunta == 2) {
+                //Si es correcta aplicar nuevas coordenadas y continuar a la proxima pregunta
+                document.querySelector('#medal').style = "margin-left: -71%;margin-top: 28%;"
+            }if (nroPregunta == 3) {
+                document.querySelector('#medal').style = "margin-left: -63.7%;margin-top: 29%;"
+            }if (nroPregunta == 4) {
+                document.querySelector('#medal').style = "margin-left: -40.3%;margin-top: -26%;"
+            }if (nroPregunta == 5) {
+                document.querySelector('#medal').style = "margin-left: -31.5%;margin-top: -29%;"
             }
-        });
+        }
     </script>
     <!-- ///////////////// FIN JS PARA COORDENADAS ///////////////-->
 </div>

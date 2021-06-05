@@ -1,6 +1,5 @@
 @extends('layouts.app')
-@section('styles','/../css/styles-juego.css')
-<!-- @section('styles','/../css/styles-index.css') -->
+@section('styles','css/styles-index.css')
 
 @section('content')
 
@@ -8,7 +7,7 @@
     <!--CUSTOM EDITAR PREGUNTA -->
     <form class="form1" action="/preguntas/modificar" method="POST">
             @csrf
-            <h3 class="tit_preg">Editá la pregunta2</h3>
+            <h3 class="tit_preg">Editá la pregunta</h3>
             <input class="form-control" type="hidden" name="id" value="{{$pregunta->id}}">
             <textarea class="form-control" name="pregunta" value="{{$pregunta->pregunta}}">{{$pregunta->pregunta}}</textarea>
              @foreach($pregunta->respuestas as $key => $respuesta)

@@ -14,7 +14,6 @@ html {
 }
 .text-main {
     flex: 1;
-    text-align: center;
     background-image: url('../images/fondo2.jpg');
    /* background-image: linear-gradient(to top, #fa71cd 0%,   #c471f5 100%);*/
    background-position: center;
@@ -119,9 +118,6 @@ footer{
 
 .btnWindex{
     width: 20%;
-}
-.btn{
-    white-space: normal;
 }
 
 .titulo{

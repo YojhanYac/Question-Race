@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('styles','../css/styles-juego.css')
+@section('styles','css/styles-index.css')
 
 @section('content')
 

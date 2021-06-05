@@ -57,6 +57,10 @@ html {
     border-bottom: none!important;
 }
 
+.prueba2 {
+    border-radius: 30%!important;
+    background: green;
+}
 .prueba1 th:first-child {
     border-top-left-radius: 15px!important;
 }

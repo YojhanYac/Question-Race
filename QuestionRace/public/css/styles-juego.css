@@ -411,25 +411,12 @@ margin: 2% auto;
     width: 12rem;
     height: 12rem;
     object-fit: cover;
-    }
 }
-
-.labelCustom-button {
-    height: auto!important;
 }
 
 @media only screen and (max-width: 767px) {
     .perfil-form {
         padding: 2% 0px 0px 0px;
-    }
-    .left {
-        margin: 5% auto 2.5% auto;
-    }
-    .rigth {
-        margin: 2.5% auto 5% auto;
-    }
-    .main-content {
-        margin: 0.75% auto;
     }
 }
 

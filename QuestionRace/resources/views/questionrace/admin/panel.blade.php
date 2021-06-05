@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('styles','css/styles-juego.css')
+
 @section('content')
 <div class="container py-5 my-5">
 <h2>PANEL DE CONTROL</h2>

@@ -8,7 +8,7 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
 <title>QuestionRace</title>
-<link rel="shortcut icon" href="/../../images/medal.png">
+<link rel="shortcut icon" href="images/medal.png">
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -20,7 +20,7 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 crossorigin="anonymous"></script>
-<!-- <script src="js/main.js"></script> -->
+<script src="js/main.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <!-- Fonts -->
@@ -30,7 +30,6 @@ crossorigin="anonymous"></script>
 
 <!-- Styles -->
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<link rel="stylesheet" href="/../../css/style-layout.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="images/.png">
 <!--<link rel="stylesheet" href="{{asset('css/styles-index.css')}}">
@@ -38,7 +37,7 @@ crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
 <link rel="stylesheet" href="@yield('styles')">
 </head>
-<!-- <body onload="myFunction()"> -->
+<body onload="myFunction()">
 <span id="home"></span>
 <div id="" >
   <nav class="border-line-green navbar navbar-expand-lg navbar-dark bg-dark">
@@ -63,11 +62,11 @@ crossorigin="anonymous"></script>
 
 
         @guest
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="{{ route('login') }}">{{ __('LOGIN') }}</a>
         </li>
         @if (Route::has('register'))
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="{{ route('register') }}">{{ __('REGISTRO') }}</a>
         </li>
         @endif
@@ -77,8 +76,9 @@ crossorigin="anonymous"></script>
           <a class="nav-link" href="/admin">PANEL ADMIN</a>
         </li>
         @endif
+      </ul>
       {{-- <img id="imgPerfil" src="/storage/{{Auth::user()->imagen}}" alt="" > --}}
-      <!-- <ul id="user" class="navbar-nav text-right"> -->
+      <ul id="user" class="navbar-nav text-right">
 
        <li class="nav-item active ">
         <a  class="nav-link" href="/perfil" aria-expanded="false">{{ Auth::user()->user }}
@@ -90,9 +90,11 @@ crossorigin="anonymous"></script>
             </a>
           </li> --}}
           <li>
-            <a class="dropdown-item nav-link" href="{{ route('logout') }}"
+            <a class="dropdown-item" href="{{ route('logout') }}"
             onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">{{ __('SALIR')  }}</a>
+            document.getElementById('logout-form').submit();">
+            {{ __('X') }}
+          </a>
           <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
           </form>
@@ -114,7 +116,7 @@ crossorigin="anonymous"></script>
 </div>
 </main>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<!-- <script src="js/main.js"></script> -->
+<script src="js/main.js"></script>
 <script>
 AOS.init();
 </script>
@@ -122,7 +124,7 @@ AOS.init();
 <div class="container-fluid bg-inverse border-line-green">
   <div class="row text-white py-4 text-white">
     <div class="col-md-3 footer-brand">
-      <img src="/../../images/medal.png" class="float-left mr-3 imgfoter" alt="#">
+      <img src="../images/medal.png" class="float-left mr-3 imgfoter" alt="#">
       <h4 class="namber">QUESTION RACE</h4>
       <div class="blockquote-footer">Todos los derechos reservados <cite title="Source Title">2019</cite>
       </div>
